@@ -1,0 +1,118 @@
+header {
+    height: 200vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    
+
+}
+.header__container {
+    
+    position: absolute;
+    transform: translateY(400px);
+    text-align: left;
+    height:100%;
+    position: relative;
+    
+}
+
+/*========================CTA=============================*/
+.cta {
+    
+    background: var(--color-white);
+    position: relative;
+    left:-14rem;
+    top:4rem;
+    width:135%;
+    justify-self: center;
+    height:100px;
+    display: flex;
+    gap: 2.2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.barra{
+    background: var(--color-bg-variant);
+    position: relative;
+    left:-14rem;
+    top:4rem;
+    width:135%;
+    height:12px;
+    display: flex;
+    
+   
+}
+.botones {
+    
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+    transform: translateX(-3rem);
+}
+
+/*========================HEADER SOCIALS=============================*/
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.8rem;
+    position: absolute;
+    left: -55px;
+    bottom: 29.5rem;
+   
+
+}
+
+.header_socials::after {
+    content:'';
+    width: 1px;
+    height: 6.5rem;
+    background: var(--color-white);
+}
+
+
+
+/*========================IMAGEN=============================*/
+.me {
+    
+    background-image: image(QR);
+    background-size: cover;
+    position: relative;
+ 
+
+
+}
+/*========================SCROLLDOWN=============================*/
+.scroll_down {
+   
+    position: absolute;
+    right:-1rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+
+}
+
+/*==================Medim devices======================*/
+@media screen and (max-width: 1024px){
+    header{
+        height: 68vh;
+    }
+}
+
+/*==================Small devices======================*/
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+
+    .header_socials,
+    .scroll_down{
+        display: none;
+
+    }
+}

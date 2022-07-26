@@ -1,0 +1,23 @@
+.foto{
+    width: 320px;
+    height: 400px;
+    padding: 1rem;
+    overflow: hidden;
+}
+.about__container{
+    display: grid;
+    height:300px;
+    grid-template-columns: 3.5fr 5fr 5fr;
+    
+}
+.about__container2{
+    display: grid;
+    height:10px;
+    grid-template-columns: 3fr 8.5fr ;
+    
+}
+.letra{
+
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
