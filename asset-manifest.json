@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebf7a5fc.css",
+    "main.js": "/static/js/main.1013dd65.js",
+    "static/media/47404986P.pdf": "/static/media/47404986P.6c46b9cf014d161c8c9e.pdf",
+    "static/media/Imagen2.jpg": "/static/media/Imagen2.0d78ae0972c95f586d74.jpg",
+    "static/media/Imagen4.jpeg": "/static/media/Imagen4.f4ccc2a6d0589b470450.jpeg",
+    "static/media/Cv_JulioRepresa.pdf": "/static/media/Cv_JulioRepresa.0b6d8ecaf9b0d77263eb.pdf",
+    "static/media/dia2.PNG": "/static/media/dia2.dc9f4e7f51b6bdeadfbb.PNG",
+    "static/media/blender.jpg": "/static/media/blender.310e56787e91947d0525.jpg",
+    "static/media/Captura.jpg": "/static/media/Captura.340d5e1021254af57516.jpg",
+    "static/media/Imagen1.png": "/static/media/Imagen1.09e2779d3b83252cf49d.png",
+    "static/media/Imagen3.png": "/static/media/Imagen3.c7a868b4564dd3c8819a.png",
+    "static/media/Imagen6.png": "/static/media/Imagen6.7fe2fa016d730cda2d5e.png",
+    "index.html": "/index.html",
+    "main.ebf7a5fc.css.map": "/static/css/main.ebf7a5fc.css.map",
+    "main.1013dd65.js.map": "/static/js/main.1013dd65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebf7a5fc.css",
+    "static/js/main.1013dd65.js"
+  ]
+}
